@@ -1,9 +1,11 @@
 import './App.css';
-import ProgrammerCard from './components/ProgrammerCard';
+import Header from './components/Header/Header';
+import ProgrammerCard from './components/ProgrammerCard/ProgrammerCard';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-green-500">
+    <Header/>
     <ProgrammerCard/>
     </div>
   );
